@@ -13,8 +13,8 @@ import {
 } from '@pancakeswap/uikit'
 import { ContextApi } from 'contexts/Localization/types'
 import { nftsBaseUrl } from 'views/Nft/market/constants'
-import { perpLangMap } from 'utils/getPerpetualLanguageCode'
-
+/* import { perpLangMap } from 'utils/getPerpetualLanguageCode'
+ */
 export type ConfigMenuItemsType = MenuItemsType & { hideSubNav?: boolean }
 
 const config: (t: ContextApi['t'], languageCode?: string) => ConfigMenuItemsType[] = (t, languageCode) => [
@@ -37,11 +37,11 @@ const config: (t: ContextApi['t'], languageCode?: string) => ConfigMenuItemsType
         label: t('Liquidity'),
         href: '/liquidity',
       },
-      {
+     /*  {
         label: t('Perpetual'),
         href: `https://perp.pancakeswap.finance/${perpLangMap(languageCode)}/futures/BTCUSDT`,
         type: DropdownMenuItemType.EXTERNAL_LINK,
-      },
+      }, */
     ],
   },
   {
@@ -60,7 +60,7 @@ const config: (t: ContextApi['t'], languageCode?: string) => ConfigMenuItemsType
       },
     ],
   },
-  {
+  /* {
     label: t('Win'),
     href: '/prediction',
     icon: TrophyIcon,
@@ -79,8 +79,8 @@ const config: (t: ContextApi['t'], languageCode?: string) => ConfigMenuItemsType
         href: '/lottery',
       },
     ],
-  },
-  {
+  }, */
+  /* {
     label: t('NFT'),
     href: `${nftsBaseUrl}`,
     icon: NftIcon,
@@ -99,7 +99,7 @@ const config: (t: ContextApi['t'], languageCode?: string) => ConfigMenuItemsType
         href: `${nftsBaseUrl}/activity`,
       },
     ],
-  },
+  }, */
   {
     label: '',
     href: '/info',
@@ -114,17 +114,17 @@ const config: (t: ContextApi['t'], languageCode?: string) => ConfigMenuItemsType
         label: t('IFO'),
         href: '/ifo',
       },
-      {
+     /*  {
         label: t('Voting'),
         href: '/voting',
-      },
-      {
+      }, */
+      /* {
         type: DropdownMenuItemType.DIVIDER,
       },
       {
         label: t('Leaderboard'),
         href: '/teams',
-      },
+      }, */
       {
         type: DropdownMenuItemType.DIVIDER,
       },
