@@ -80,7 +80,7 @@ const FarmAuction = () => {
         <Breadcrumbs>
           <NextLink href="/" passHref>
             <Link href="/" color="primary" style={{ fontWeight: 400 }}>
-              {t('Home')}
+              {t('trade')}
             </Link>
           </NextLink>
           <NextLink href="/farms" passHref>
