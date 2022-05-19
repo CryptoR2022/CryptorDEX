@@ -336,7 +336,7 @@ const Farms: React.FC = ({ children }) => {
     <FarmsContext.Provider value={{ chosenFarmsMemoized }}>
       <PageHeader>
         <Heading as="h1" scale="xxl" color="secondary" mb="24px">
-          {t('Farms')}
+          {t('Fresh Farms')}
         </Heading>
         <Heading scale="lg" color="text">
           {t('Stake LP tokens to earn.')}
@@ -400,7 +400,7 @@ const Farms: React.FC = ({ children }) => {
             </LabelWrapper>
             <LabelWrapper style={{ marginLeft: 16 }}>
               <Text textTransform="uppercase">{t('Search')}</Text>
-              <SearchInput onChange={handleChangeQuery} placeholder="Search Farms" />
+              <SearchInput onChange={handleChangeQuery} placeholder="Search Fresh Farms" />
             </LabelWrapper>
           </FilterContainer>
         </ControlContainer>
