@@ -61,11 +61,11 @@ export const links: MenuItemsType[] = [
         href: "/earn",
       },
       {
-        label: "Fresh Farms",
+        label: "Yield Farms",
         href: "/farms",
       },
       {
-        label: "Green pools",
+        label: "Syrup pools",
         href: "/pools",
       },
     ],

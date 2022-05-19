@@ -106,7 +106,7 @@ const WinSection = () => {
       <TransparentFrame isDark={theme.isDark}>
         <Flex flexDirection="column" alignItems="center" justifyContent="center">
           <ColoredWordHeading textAlign="center" text={t('Win millions in prizes')} />
-          <Text color="textSubtle">{t('Provably fair, traditional competition.')}</Text>
+          <Text color="textSubtle">{t('Provably fair, trading competition.')}</Text>
           <Text mb="40px" color="textSubtle">
             {t('Win big with cryptoR.')}
           </Text>
