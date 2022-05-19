@@ -74,7 +74,7 @@ const LotteryPrice: React.FC = () => {
         {prizeInBusd.isNaN() ? (
           <Skeleton height={20} width={90} display="inline-block" />
         ) : (
-          t('Win $%prize% in Lottery', {
+          t('Win $%prize% in trading competition', {
             prize: prizeTotal.toLocaleString(undefined, { minimumFractionDigits: 0, maximumFractionDigits: 0 }),
           })
         )}

@@ -61,11 +61,11 @@ export const links: MenuItemsType[] = [
         href: "/earn",
       },
       {
-        label: "Yield Farms",
+        label: "Fresh Farms",
         href: "/farms",
       },
       {
-        label: "Syrup pools",
+        label: "Green pools",
         href: "/pools",
       },
     ],
@@ -80,15 +80,15 @@ export const links: MenuItemsType[] = [
         label: "Win",
         href: "/",
       },
-      {
-        label: "Predictions",
-        href: "/",
-        status: status.LIVE,
-      },
-      {
-        label: "Lottery",
-        href: "/",
-      },
+      // {
+      //   label: "Predictions",
+      //   href: "/",
+      //   status: status.LIVE,
+      // },
+      // {
+      //   label: "Lottery",
+      //   href: "/",
+      // },
     ],
   },
   {
