@@ -101,13 +101,10 @@ const Footer = () => {
       </FloatingPancakesWrapper>
       <Wrapper>
         <Heading mb="24px" scale="xl" color="white">
-          {t('Start in seconds.')}
+          {t('You may start trading in cryptos pretty quickly')}
         </Heading>
         <Text textAlign="center" color="white">
-          {t('Connect your crypto wallet to start using the app in seconds.')}
-        </Text>
-        <Text mb="24px" bold color="white">
-          {t('No registration needed.')}
+          {t('Just connect your crypto wallet and strat using CryptoRDEX almost instantly')}
         </Text>
 
         <Link external href="https://docs.pancakeswap.finance/">
