@@ -109,10 +109,10 @@ const Hero = () => {
       >
         <Flex flex="1" flexDirection="column">
           <Heading scale="xxl" color="secondary" mb="24px">
-            {t('Welcome to CryptoR Decentralised Exchange')}
+            {t('The moon is made of cryptoR.')}
           </Heading>
           <Heading scale="md" mb="24px">
-            {t('Here is your opportunity to Trade & Earn in the domain of cryptocurrencies')}
+            {t('Trade, earn, and win crypto on the most popular decentralized platform in the galaxy.')}
           </Heading>
           <Flex>
             {!account && <ConnectWalletButton mr="8px" />}
