@@ -33,10 +33,10 @@ const config: (t: ContextApi['t'], languageCode?: string) => ConfigMenuItemsType
         label: t('Limit'),
         href: '/limit-orders',
       },
-      {
-        label: t('Liquidity'),
-        href: '/liquidity',
-      },
+      // {
+      //   label: t('Liquidity'),
+      //   href: '/liquidity',
+      // },
      /*  {
         label: t('Perpetual'),
         href: `https://perp.pancakeswap.finance/${perpLangMap(languageCode)}/futures/BTCUSDT`,
@@ -51,15 +51,27 @@ const config: (t: ContextApi['t'], languageCode?: string) => ConfigMenuItemsType
     fillIcon: EarnFillIcon,
     items: [
       {
-        label: t('Farms'),
+        label: t('Fresh Farms'),
         href: '/farms',
       },
       {
-        label: t('Pools'),
+        label: t('Green Pools'),
         href: '/pools',
       },
     ],
   },
+  {
+    label: t('Liquidity'),
+    href: '/liquidity',
+    icon: TrophyIcon,
+    fillIcon: TrophyFillIcon,
+    items: [
+      {
+        label: t('Liquidity'),
+        href: '/liquidity',
+      },
+    ],
+  }, 
   /* {
     label: t('Win'),
     href: '/prediction',

@@ -23,7 +23,7 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
         href: 'https://docs.pancakeswap.finance/contact-us/telegram',
       },
       {
-        label: t('CAKE token'),
+        label: t('CNR token'),
         href: 'https://docs.pancakeswap.finance/tokenomics/cake',
       },
       {
