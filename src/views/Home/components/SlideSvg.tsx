@@ -9,9 +9,9 @@ export const SlideSvgLight: React.FC<SvgProps> = (props) => {
       />
       <defs>
         <linearGradient id="paint0_linear_light" x1="830" y1="84" x2="830" y2="339" gradientUnits="userSpaceOnUse">
-          <stop stopColor="pink" stopOpacity="0.48" />
-          <stop offset="0.566389" stopColor="pink" stopOpacity="0.35" />
-          <stop offset="1" stopColor="pink" />
+          <stop stopColor="white" stopOpacity="0.48" />
+          <stop offset="0.566389" stopColor="white" stopOpacity="0.35" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
       </defs>
     </Svg>

@@ -105,12 +105,12 @@ const WinSection = () => {
       </BgWrapper> */}
       <TransparentFrame isDark={theme.isDark}>
         <Flex flexDirection="column" alignItems="center" justifyContent="center">
-          <ColoredWordHeading textAlign="center" text={t('There are surprises in store for you to win Big Time')} />
-          <Text color="textSubtle">{t('To be launched soon!')}</Text>
-          {/* <Text mb="40px" color="textSubtle">
-            {t('There are surprises in store for you to win Big Time')}
-          </Text> */}
-          {/* <Text color="textSubtle">{t('Comming Soon...')}</Text> */}
+          <ColoredWordHeading textAlign="center" text={t('Win millions in prizes')} />
+          <Text color="textSubtle">{t('Provably fair, trading competition.')}</Text>
+          <Text mb="40px" color="textSubtle">
+            {t('Win big with cryptoR.')}
+          </Text>
+          <Text color="textSubtle">{t('Comming Soon...')}</Text>
           {/* <Flex m="0 auto" flexDirection={['column', null, null, 'row']} maxWidth="600px">
             <Flex
               flex="1"

@@ -60,7 +60,7 @@ const stepsConfigBuilder = ({ t, userInfos, eventInfos, userStatus, account, the
             target="_blank"
             width="100%"
           >
-            {t('Buy CNR')}
+            {t('Buy CAKE')}
           </Button>
         </>
       ),
