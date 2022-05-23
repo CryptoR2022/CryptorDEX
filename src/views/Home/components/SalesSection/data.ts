@@ -67,10 +67,10 @@ export const cakeSectionData = (t: TranslateFunction): SalesSectionProps => ({
   images: {
     path: '/images/home/cake/',
     attributes: [
-      { src: 'bottom-right', alt: t('Small 3d pancake') },
-      { src: 'top-right', alt: t('Small 3d pancake') },
+      // { src: 'bottom-right', alt: t('br') },
+      // { src: 'top-right', alt: t('tr') },
       { src: 'coin', alt: t('CNR token') },
-      { src: 'top-left', alt: t('Small 3d pancake') },
+      // { src: 'top-left', alt: t('tl') },
     ],
   },
 })
