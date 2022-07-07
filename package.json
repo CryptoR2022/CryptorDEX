@@ -39,6 +39,7 @@
   "dependencies": {
     "@binance-chain/bsc-connector": "^1.0.0",
     "@blocto/blocto-connector": "^0.2.3",
+    "@cryptor/sdk": "^1.0.0",
     "@ethersproject/abi": "^5.5.0",
     "@ethersproject/address": "^5.5.0",
     "@ethersproject/bignumber": "^5.5.0",

@@ -1,4 +1,4 @@
-import { ChainId, Token } from '@pancakeswap/sdk'
+import { ChainId, Token } from '@cryptor/sdk'
 import { serializeToken } from 'state/user/hooks/helpers'
 import { CHAIN_ID } from './networks'
 import { SerializedToken } from './types'
@@ -28,6 +28,14 @@ export const mainnetTokens = defineTokens({
     18,
     'CAKE',
     'PancakeSwap Token',
+    'https://cryptordex.com/',
+  ),
+  cnr: new Token(
+    MAINNET,
+    '0xef805D18258369b1746d427A4d76937Cd31CeC08',
+    18,
+    'CNR',
+    'CoinR Token',
     'https://cryptordex.com/',
   ),
   tlos: new Token(MAINNET, '0xb6C53431608E626AC81a9776ac3e999c5556717c', 18, 'TLOS', 'Telos', 'https://www.telos.net/'),
