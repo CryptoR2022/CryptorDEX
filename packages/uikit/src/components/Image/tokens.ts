@@ -2,11 +2,11 @@
  * @see https://github.com/pancakeswap/pancake-frontend/blob/develop/src/config/constants/tokens.ts
  */
 const tokens = {
-  cake: {
-    symbol: "CAKE",
+  cnr: {
+    symbol: "CNR",
     address: {
-      56: "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
-      97: "0xa35062141Fa33BCA92Ce69FeD37D0E8908868AAe",
+      56: "0xef805D18258369b1746d427A4d76937Cd31CeC08",
+      97: "",
     },
     decimals: 18,
     projectLink: "https://cryptordex.com/",

@@ -44,7 +44,7 @@ import {
   IfoPool,
   Multicall,
   Weth,
-  Cake,
+  Cnr,
   Erc721collection,
 } from 'config/abi/types'
 
@@ -92,7 +92,7 @@ export const useERC721 = (address: string) => {
   return useMemo(() => getErc721Contract(address, library.getSigner()), [address, library])
 }
 
-export const useCake = (): { reader: Cake; signer: Cake } => {
+export const useCake = (): { reader: Cnr; signer: Cnr } => {
   const { account, library } = useActiveWeb3React()
   return useMemo(
     () => ({

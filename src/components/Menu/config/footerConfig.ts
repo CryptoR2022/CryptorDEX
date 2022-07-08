@@ -24,7 +24,7 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
       },
       {
         label: t('CNR token'),
-        href: 'https://docs.pancakeswap.finance/tokenomics/cake',
+        href: 'https://www.linkedin.com/feed/update/urn:li:activity:6950430229244837889',
       },
       {
         label: '—',
