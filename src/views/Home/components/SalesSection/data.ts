@@ -42,7 +42,7 @@ export const earnSectionData = (t: TranslateFunction): SalesSectionProps => ({
   images: {
     path: '/images/home/earn/',
     attributes: [
-      { src: 'folder', alt: t('Folder with cake token') },
+      { src: 'folder', alt: t('Folder with cnr token') },
     ],
   },
 })

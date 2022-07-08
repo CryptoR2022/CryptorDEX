@@ -12,6 +12,7 @@ import {
   SerializedCakeVault,
 } from 'state/types'
 import cakeAbi from 'config/abi/cake.json'
+import cnrAbi from 'config/abi/cnr.json'
 import tokens from 'config/constants/tokens'
 import masterChef from 'config/abi/masterchef.json'
 import { getAddress, getMasterChefAddress } from 'utils/addressHelpers'
@@ -103,17 +104,17 @@ export const fetchCakePoolPublicDataAsync = () => async (dispatch, getState) => 
 
 export const fetchCakePoolUserDataAsync = (account: string) => async (dispatch) => {
   const allowanceCall = {
-    address: tokens.cake.address,
+    address: tokens.cnr.address,
     name: 'allowance',
     params: [account, cakePoolAddress],
   }
   const balanceOfCall = {
-    address: tokens.cake.address,
+    address: tokens.cnr.address,
     name: 'balanceOf',
     params: [account],
   }
   const cakeContractCalls = [allowanceCall, balanceOfCall]
-  const [[allowance], [stakingTokenBalance]] = await multicallv2(cakeAbi, cakeContractCalls)
+  const [[allowance], [stakingTokenBalance]] = await multicallv2(cnrAbi, cakeContractCalls)
 
   const masterChefCalls = ['pendingCake', 'userInfo'].map((method) => ({
     address: getMasterChefAddress(),
