@@ -1,5 +1,5 @@
 {
-  "name": "pancake-frontend",
+  "name": "cryptordex-frontend",
   "version": "0.1.0",
   "private": true,
   "workspaces": [
@@ -139,3 +139,5 @@
     "typechain": "^6.1.0"
   }
 }
+
+
